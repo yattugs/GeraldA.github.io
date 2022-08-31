@@ -1,0 +1,136 @@
+body{
+  color: white;
+  background-color: rgb(13, 25, 43);
+  font-family: outfit;
+  padding-top:70px ;
+  max-width:max-content;
+  margin: auto;
+  vertical-align: middle;
+}
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+  padding: 15px 30px;
+  width: 300px;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.521);
+  margin: 0;
+}
+.equilibrium-img-con{
+  position: relative;
+}
+.equilibrium-img{
+  width: 300px;
+  border-radius: 10px;
+}
+.view-icon{
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 125px;
+  border-radius: 10px;
+  opacity: 0;
+}
+.view-icon:hover{
+  background-color:rgba(0, 255, 247, 0.5) ;
+  opacity: 1;
+  cursor: pointer;
+}
+.title-parag{
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.description-parag{
+  font-size: 14px;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+  margin-bottom: 10px;
+}
+.info-details{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.info-details-with-icon-con{
+  display: flex;
+}
+.info-details-with-icon-con img{
+  width: 10px;
+  align-items: center;
+  margin-right: 8px;
+}
+.ETH-currency{
+  color: rgb(0, 255, 247);
+  text-shadow: 0px 1px 8px rgba(0, 0, 0, 0.521);
+  font-weight: 300;
+}
+.days-countdown{
+  color: hsl(215, 51%, 70%);
+  text-shadow: 0px 1px 8px rgba(0, 0, 0, 0.521);
+  font-weight: 300;
+}
+.author-container{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-top-width:1px ;
+  border-top-color:hsl(215, 32%, 27%) ;
+  border-top-style:solid;
+  line-height: 50px;
+}
+.profile-pic{
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  border: 1px solid white;
+  object-fit: cover;
+}
+.author-name{
+  font-size: 14px;
+  margin-left: 20px;
+
+}
+.author-name span{
+  color:hsl(215, 51%, 70%);
+}
+/* active state */
+
+.title-parag:hover,.author-name:hover{
+  color: rgb(0, 255, 247);
+  cursor: pointer;
+}
+.footer{
+  margin-top: 70px;
+  text-align: center;
+  display: inline-block;
+  
+}
+@media (max-witdh:375px){
+  /* body{
+    padding-top:10px ;
+    margin: 10px;
+  } */
+  .card{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    padding: 15px 30px;
+    width: 100px;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.521);
+    margin: 10px;
+  }
+}

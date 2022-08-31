@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <title>Frontend Mentor | NFT preview card component</title>
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+  
+  <div class="parent-container">
+    <main class="card">
+      <section class="equilibrium-img-con">
+        <img class="equilibrium-img" src="/nft-preview-card-component-main/images/image-equilibrium.jpg" alt="Equilibrium">
+        <img class="view-icon" src="/nft-preview-card-component-main/images/icon-view.svg" alt="eye pic">
+      </section>
+      <p class="title-parag">Equilibrium #3429</p>
+      <p class="description-parag">Our Equilibrium collection promotes balance and calm.</p>
+      <!-- make flex this container and justify content:space-between -->
+      <div class="info-details">
+       <div class="info-details-with-icon-con">
+          <img src="/nft-preview-card-component-main/images/icon-ethereum.svg" alt="">
+          <p class="ETH-currency">0.041 ETH</p>
+       </div>
+        <div class="info-details-with-icon-con">
+          <img src="/nft-preview-card-component-main/images/icon-clock.svg" alt="">
+          <p class="days-countdown">3 days left</p>
+        </div>
+      </div>
+      <!--make it the container display:inlineblock or create flexbox-->
+      <div class="author-container" >
+        <img class="profile-pic" src="/nft-preview-card-component-main/images/image-avatar.png" alt="">
+        <p class="author-name"><span>Creation of</span> Jules Wyvern</p>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Gerald Anadon</a>.
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
